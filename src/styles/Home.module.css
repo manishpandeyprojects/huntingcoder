@@ -1,9 +1,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  padding: 6rem;
+  padding: 0 6rem;
   min-height: 100vh;
 }
 
@@ -275,4 +275,33 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+
+
+.pt3{
+  padding-top: 3rem;
+}
+
+.pt2{
+  padding-top: 2rem;
+}
+.blogs{
+  margin-top: 4rem;
+}
+.blogs .blogItems{
+  margin-top: 1rem;
+}
+.blogs .blogItems p{
+  margin-top: 0.5rem;
+}
+.mainnav ul{
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.mainnav ul li{
+  margin: 0 1rem;
+  list-style: none;
+  font-weight: bold;
 }
