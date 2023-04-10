@@ -305,3 +305,9 @@
   list-style: none;
   font-weight: bold;
 }
+.imageWrapper{
+  padding: 20px;
+}
+.myimg{
+  border-radius: 10px;
+}
