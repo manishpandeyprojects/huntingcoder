@@ -32,14 +32,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className={styles.mainnav}>
-        <ul>
-          <Link href="/"><li>Home</li></Link>
-          <Link href="/about"><li>About</li></Link>
-          <Link href="/blog"><li>Blog</li></Link>
-          <Link href="/contact"><li>Contact Us</li></Link>
-        </ul>
-      </nav>
+      
+      
       <main className={styles.main}>
         <div style={{ textAlign: 'center' }}>
           <h1>Hunting Coder</h1>
