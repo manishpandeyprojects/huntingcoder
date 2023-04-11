@@ -46,19 +46,19 @@ export default function Home() {
         <div className={styles.blogs}>
           <h2>Latest blog</h2>
           <div className={styles.blogItems}>
-            <h3>Best JavaScript course in 2022</h3>
+            <Link href={'/blogpost/javascript-course'}> <h3>Best JavaScript course in 2022</h3></Link>
             <p>Hunting coder JavaScript Course</p>
           </div>
           <div className={styles.blogItems}>
-            <h3>Best JavaScript course in 2022</h3>
+            <Link href={'/blogpost/javascript-course'}> <h3>Best JavaScript course in 2022</h3></Link>
             <p>Hunting coder JavaScript Course</p>
           </div>
           <div className={styles.blogItems}>
-            <h3>Best JavaScript course in 2022</h3>
+            <Link href={'/blogpost/javascript-course'}> <h3>Best JavaScript course in 2022</h3></Link>
             <p>Hunting coder JavaScript Course</p>
           </div>
           <div className={styles.blogItems}>
-            <h3>Best JavaScript course in 2022</h3>
+            <Link href={'/blogpost/javascript-course'}> <h3>Best JavaScript course in 2022</h3></Link>
             <p>Hunting coder JavaScript Course</p>
           </div>
         </div>
